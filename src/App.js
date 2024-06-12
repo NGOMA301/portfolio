@@ -14,50 +14,25 @@ import Styleswitcher from './components/styleswitcher/styleswitcher'
 function App() {
   return (
     <div className="App">
-       <div className='navs'>
-        <Navbar />
+      <div className='navs'>
       </div>
       <div className='StyleSwitcher'>
         <Styleswitcher />
       </div>
-      <div>
-        <Router>
-          <Home />
-          <Switch>
-            <Route path='/' />
-          </Switch>
-        </Router>
-        <Router>
-          <Switch>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
-          <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-          </Switch>
-          <Switch>
-            <Route path="/services">
-              <Service />
-            </Route>
-          </Switch>
-          <Switch>
-            <Route path="/portfolio">
-              <Portfolio />
-            </Route>
-          </Switch>
 
-          <Switch>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-          </Switch>
+      <Router>
+            
+        <Navbar />
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/about" component={About} />
+                <Route path="/services" component={Service} />
+                <Route path="/portfolio" component={Portfolio} />
+                <Route path="/contact" component={Contact} />
+            </Switch>
         </Router>
-      </div> 
-      {/* <Work/> */}
     </div>
+
   );
 }
 
