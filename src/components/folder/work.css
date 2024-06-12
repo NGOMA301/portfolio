@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.div1 {
+  width: 100%;
+  padding: 10px;
+  background-color: #ea580b;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.div1 .para1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+  font-size: small;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.q {
+  font-size: 17px;
+  font-weight: bold;
+}
+.divone1 {
+  display: flex;
+  gap: 1rem;
+  font-weight: bold;
+  font-size: small;
+}
+
+.div2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.div2 .paradiv2 {
+  display: flex;
+  gap: 1rem;
+}
+.div2 .paradiv2 a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #51565c;
+  transition: all 0.3s ease;
+  margin-left: 1.4rem;
+}
+.div2 .paradiv2 a:hover {
+  color: #db7b46;
+}
+.div2 .paradiv2 a .span1 {
+  border-bottom: 2px solid #ea580b;
+}
+.div2 .paradiv2 a .span2 {
+  border-top: 2px solid #ea580b;
+  color: #ea580b;
+}
+.leftdivs {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-right: 7rem;
+}
+.leftdivs .cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.leftdivs .cont .icon {
+  font-size: 40px;
+  padding-top: 6px;
+  color: #ea580b;
+}
+.leftdivs .cont h1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #51565c;
+}
+.leftdivs .cont p {
+  font-size: 15px;
+  color: #51565c;
+}
+.leftdivs .cont .desc {
+  color: #7e7e7e;
+}
+.leftdivs .cont .desc:hover {
+  color: #ea580b;
+}
+.leftdivs {
+  cursor: pointer;
+}
+.leftdivs:hover{
+  color: #ea580b important;
+}
+.div3 {
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+  background-color: #ea580b;
+}
+.div3 nav {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  gap: 20px;
+}
+.div3 nav a {
+  text-decoration: none;
+  color: #f1f1f1;
+  text-transform: capitalize;
+  font-weight: 600;
+  transition: all .2s ease;
+}
+.div3 nav a:hover{
+  color: #d3d3d3;
+}
+.div4 {
+  width: 100%;
+  height: 79%;
+  background-image: url(backgrpound\ photo.jpg);
+  background-size: cover;
+}
+.div4 .content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.418);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.div4 .content h2 {
+  font-size: 45px;
+  color: #ff9645;
+  text-transform: capitalize;
+}
+.div4 .content h2 .name1 {
+  color: #f1f1f1;
+}
+.div4 .content h2 .at {
+  color: #f5bd72;
+}
+.div4 .content p {
+  color: #f1f1f1e7;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-top: 1rem;
+}
+.divofpara {
+  width: 70rem;
+}
+.div4 .content button {
+  padding: 10px 25px;
+  font-weight: bolder;
+  background-color: #f5f5f5;
+  color: #b3683f;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.div4 .content button:hover {
+  background-color: #ffe8dd;
+}
