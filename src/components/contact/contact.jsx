@@ -1,6 +1,6 @@
 
 import React, { useRef, useState } from 'react';
-import { FaPhone, FaWhatsapp, FaEnvelope, FaGlobeAfrica, } from 'react-icons/fa'
+import { FaPhone, FaWhatsapp, FaEnvelope, FaGlobeAfrica, FaGithub, } from 'react-icons/fa'
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
@@ -60,9 +60,9 @@ export default function Contact() {
                     {/* ===============conact info item end========================= */}
                     {/* ===============conact info item start========================= */}
                     <div className='contact-info-item padd-15'>
-                        <div className='icon'><i className='fa fa-phone'><FaGlobeAfrica /></i></div>
+                        <div className='icon'><i className='fa fa-phone'><FaGithub /></i></div>
                         <h4>Website</h4>
-                        <p><a href="https://benjamin.kesug.com/?i=1" target="blank">benjamin.kesug.com</a></p>
+                        <p><a href="https://github.com/NGOMA301/" target="blank">NGOMA301</a></p>
                     </div>
                     {/* ===============conact info item end========================= */}
                 </div>
