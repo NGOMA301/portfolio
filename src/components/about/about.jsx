@@ -66,14 +66,14 @@ export default function about() {
                                         <h5>Javascript(Js)</h5>
                                         <div className="progress">
                                             <div className="progress-in css2"></div>
-                                            <div className="skill-percent">36%</div>
+                                            <div className="skill-percent">86%</div>
                                         </div>
                                     </div>
                                     <div className="skill-item padd-15">
                                         <h5>Hypertext Preprocessor(PHP)</h5>
                                         <div className="progress">
                                             <div className="progress-in css3"></div>
-                                            <div className="skill-percent">0%</div>
+                                            <div className="skill-percent">72%</div>
                                         </div>
                                     </div>
                                     <div className="skill-item padd-15">
@@ -87,14 +87,14 @@ export default function about() {
                                         <h5>Bootstrap</h5>
                                         <div className="progress">
                                             <div className="progress-in css5"></div>
-                                            <div className="skill-percent">0%</div>
+                                            <div className="skill-percent">91%</div>
                                         </div>
                                     </div>
                                     <div className="skill-item padd-15">
                                         <h5>Python</h5>
                                         <div className="progress">
                                             <div className="progress-in css6"></div>
-                                            <div className="skill-percent">0%</div>
+                                            <div className="skill-percent">54%</div>
                                         </div>
                                     </div>
                                 </div>
