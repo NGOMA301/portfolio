@@ -17,7 +17,7 @@ function App() {
       <div className='navs'>
       </div>
       <div className='StyleSwitcher'>
-        <Styleswitcher />
+        {/* <Styleswitcher /> */}
       </div>
 
       <Router>
