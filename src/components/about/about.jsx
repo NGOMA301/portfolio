@@ -34,7 +34,7 @@ export default function about() {
                                         <p>Age : <span>19</span></p>
                                     </div>
                                     <div className="info-item padd-15">
-                                        <p>Instagram : <span><a href="https://www.instagram.com/director_drum/" target="blank" rel='' title="Click Here to Get On Instagram Page" >director_drum</a></span></p>
+                                        <p>Instagram : <span><a href="https://www.profitablecpmrate.com/tqu02zn8gg?key=50b32a2fac02c53923b1cb0c63f6f230" target="blank" rel='' title="Click Here to Get On Instagram Page" >director_drum</a></span></p>
                                     </div>
                                     <div className="info-item padd-15">
                                         <p>E-mail : <span>benjaminsiradj@gmail.com</span></p>
