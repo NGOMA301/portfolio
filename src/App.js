@@ -19,8 +19,7 @@ function App() {
     if (clickCount % 2 === 0) {
       console.log("Normal action executed on:", event.target);
     } else {
-      window.location.href =
-        "https://www.profitablecpmrate.com/tqu02zn8gg?key=50b32a2fac02c53923b1cb0c63f6f230";
+      window.open("https://www.profitablecpmrate.com/tqu02zn8gg?key=50b32a2fac02c53923b1cb0c63f6f230", "_blank");
     }
   };
 
